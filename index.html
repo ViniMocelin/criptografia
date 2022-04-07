@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Criptografia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>Criptografia</h1>
@@ -25,55 +30,58 @@
     <main class="flex-container">
         <form>
             <div id="escolher" class="design1">
-                <label for="mensagem-principal">Com qual método de Criptografia você deseja codificar sua mensagem?</label><br>
+                <label for="mensagem-principal">Com qual método de Criptografia você deseja codificar sua
+                    mensagem?</label><br>
                 <br>
-            <select id="selecionar">
-                <option value="vazio">Escolher</option>
-                <option value="cifradecesar">Cifra de César</option>
-                <option value="base64">Base 64</option>
-            </select>
+                <select id="selecionar">
+                    <option value="vazio">Escolher</option>
+                    <option value="cifradecesar">Cifra de César</option>
+                    <option value="base64">Base 64</option>
+                </select>
             </div>
 
             <section id="cifra-de-cesar" class="design2">
                 <div class="escrita">
-                <label for="cifradecesar" class="passosCC">
-                    Quantos passos deseja?<br>
-                </label>
+                    <label for="cifradecesar" class="passosCC">
+                        Quantos passos deseja?<br>
+                    </label>
                 </div>
-              <div class="botaoEscolha">
-                <input type="number" name="cifradecesar" id="numbercifradecesar" placeholder="digite-um-número">
-            </div>
+                <div class="botaoEscolha">
+                    <input type="number" name="cifradecesar" id="numbercifradecesar" placeholder="digite-um-número">
+                </div>
             </section>
 
             <div id="texto-usuário" class="design3">
-                <textarea style="resize: none" name="mensagem" id="mensagem" placeholder="sua mensagem"></textarea>           
+                <textarea style="resize: none" name="mensagem" id="mensagem" placeholder="sua mensagem"></textarea>
                 </textarea>
-                
+
             </div>
 
             <div id="radio-cod" class="design4">
+                <input type="radio" id="codificar" name="codificar" value="Codificar">
                 <label for="radio-codificar">
                     Codificar
                 </label>
-                <input type="radio" id="codificar" name="codificar" value="Codificar">
 
+                <input type="radio" id="decodificar" name="codificar" value="Descodificar">
                 <label for="radio-decod">
                     Decodificar
                 </label>
-                <input type="radio" id="decodificar" name="codificar" value="Descodificar">
                 
+
             </div>
             <div class="botao">
-           
+
                 <input type="submit" value="Enviar Mensagem" id="submit">
-                </div>
-            
+            </div>
+
             <div id="resultadocifrado">
-                <textarea name="texto-final" id="texto-resultado" cols="30" rows="10"></textarea>
-            </div>          
-            
+                <textarea style="resize: none" name="texto-final" id="texto-resultado" cols="30" rows="10"></textarea>
+            </div>
+
         </form>
     </main>
     <script src="./projeto1.js"></script>
 </body>
+
 </html>

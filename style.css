@@ -28,37 +28,39 @@ body{
     margin: 5px;
 }
 #selecionar{
-    width: 150px;
-    height: 40px;
+    width: 40%;
+    height: 15%;
     font-size: 16px;
     background: #EBD8C3;
-    margin-left: 170px;
+    margin-left: 30%;
 }
 .design2{
     margin: 5px;
-    margin-left: 170px;
+    margin-left: 30%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 input{
     background-color: #EBD8C3;
-    width: 140px;
-    height: 30px;
+    width: 50%;
+    height: 10%;
 }
 textarea{
-    width: 520px;
-    height: 200px;
+    width: 95%;
+    max-height: 80%;
+    font-family: 'PT Sans Caption', sans-serif;
 }
+
 .design4{
     align-items: center;
     justify-content: center;
     margin: 10px;
-    margin-left: 90px;
+    margin-left: 25%;
 }
 .result{
     font-size: 20px;
-    margin-left: 160px;
+    margin-left: 30%;
 }
 .escrita{
     padding: 5px;
@@ -67,12 +69,14 @@ textarea{
     padding: 5px;
 }
 .botao{
-    margin-left: 150px;
+    margin-left: 30%;
     padding: 10px;
 }
 #codificar{
     height: 20px;
+    width: 10%;
 }
 #decodificar{
     height: 20px;
+    width: 10%;
 }
