@@ -2,6 +2,7 @@
     margin:  0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courgette', cursive;
 }
 header{
     display: flex;
@@ -17,23 +18,25 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F7E9D7;
-    height: 670px;
-    width: 670px;
+    background-color: #f7e9d7bf;
+    height: 50%;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .design1{
-    margin: 10px;
+    margin: 5px;
 }
 #selecionar{
     width: 150px;
     height: 40px;
     font-size: 16px;
     background: #EBD8C3;
-    margin-left: 150px;
+    margin-left: 170px;
 }
 .design2{
-    margin: 10px;
-    margin-left: 160px;
+    margin: 5px;
+    margin-left: 170px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -41,17 +44,17 @@ body{
 input{
     background-color: #EBD8C3;
     width: 140px;
-    height: 20px;
+    height: 30px;
 }
 textarea{
-    width: 460px;
+    width: 520px;
     height: 200px;
 }
 .design4{
     align-items: center;
     justify-content: center;
     margin: 10px;
-    margin-left: 40px;
+    margin-left: 90px;
 }
 .result{
     font-size: 20px;
@@ -66,4 +69,10 @@ textarea{
 .botao{
     margin-left: 150px;
     padding: 10px;
+}
+#codificar{
+    height: 20px;
+}
+#decodificar{
+    height: 20px;
 }
